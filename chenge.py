@@ -5,7 +5,7 @@ api_id = 'your_api_id'
 api_hash = 'your_api_hash'  
 phone_number = 'your_phone_number'
 
-client = TelegramClient('session_name', api_id, api_hash)
+client = TelegramClient('chenge', api_id, api_hash)
 async def update_all_posts(chat, new_description):
     async for message in client.iter_messages(chat):  
         if message.text: 
